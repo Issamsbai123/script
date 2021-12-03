@@ -43,7 +43,7 @@ var guessCount = 1;
 
   else {
     Result.textContent = "C'est raté !!!";
-    Result.style.backgroundColor = 'green';
+    Result.style.backgroundColor = 'white';
     if(userGuess < randomNumber) {
       lowOrHi.textContent = 'Last guess was  low!';
     } else if(userGuess > randomNumber) {
