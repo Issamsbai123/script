@@ -26,7 +26,7 @@ var guessCount = 1;
     
 
   if (userGuess === randomNumber && guessCount<=2) {
-    Result.textContent = 'Bravo, vous avez gagné !!!';
+    Result.textContent = 'Bravo, tu es un génie !!!';
     Result.style.backgroundColor = 'bleu';
     lowOrHi.textContent = '';
   } 
